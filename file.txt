@@ -1,0 +1,13 @@
+PHIL 102: Proofs
+PROOF STRATEGY
+1.  Work backward: Check the main connective of the sentence you’re trying to prove. This will often    suggest an overall strategy for the proof. For example:
+• To prove a conjunction, you usually need to use ∧ Introduction as the last step. So make a plan for deriving the two conjuncts individually.
+• To prove a conditional, you usually need to use → Introduction. So set up the proof by assuming the antecedent and trying to derive the consequent.
+• To prove a negation, you might have to use ¬ Introduction. So start by assuming the opposite of the conclusion and trying to derive a contradiction.
+2. Work forward: Check the premises and ask what you can do with them. Which rules apply? How can you move the proof forward toward the goal you identified?
+3. If you’re totally stuck, try indirect reasoning—assume the negation of the conclusion, or of something else that would be helpful to derive, and try to apply ¬ Elimination.
+
+Practice proofs:
+1. ¬𝐴 ⊢ ¬(𝐴 ∧ 𝐵)
+2. 𝐹 → 𝐺 ⊢ ¬(𝐹 ∧ ¬𝐺)
+3. 𝐴 ∨ 𝐵, 𝐴 ↔ 𝐵 ⊢ 𝐴 ∧ 𝐵
